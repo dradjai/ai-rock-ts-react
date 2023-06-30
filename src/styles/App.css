@@ -18,6 +18,8 @@ div#root {
   background-blend-mode:lighten;
   box-shadow: rgba(1, 1, 1, 0.35) 0px 15px 25px;
   font-family: 'Rock Salt', cursive;
+  margin-bottom: 0;
+  margin-right: 0;
 }
 
 h1 {
@@ -45,6 +47,23 @@ h2, h3 {
 
 .modal-body {
   background-color: beige;
+}
+
+.footer {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Rock Salt', cursive;
+}
+
+.footer a:visited {
+  color: whitesmoke;
+}
+.footer a:hover {
+  color: purple;
 }
 
 

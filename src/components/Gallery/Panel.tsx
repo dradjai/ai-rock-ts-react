@@ -12,7 +12,7 @@ export default function Panel({id, content, image}: ObjectProps) {
     
     <Col xs={11} md={6} lg={4}>
       
-        <Image onClick={toggleShow} src={image} alt="slides" fluid/>
+        <Image onClick={toggleShow} src={image} alt="slides"fluid/>
      
 
       <Modal show={show} onHide={toggleShow} size="lg" centered>
