@@ -1,0 +1,54 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+
+
+div#root {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,99,1) 37%, rgba(0,212,255,1) 74%);
+}
+
+
+
+.hero {
+  background-image: url('../../public/images/Hero.jpg');
+  background-size: cover;
+  aspect-ratio: 1 / 1;
+  background-repeat: no-repeat;
+  background-blend-mode:lighten;
+  box-shadow: rgba(1, 1, 1, 0.35) 0px 15px 25px;
+  font-family: 'Rock Salt', cursive;
+}
+
+h1 {
+  text-align: center;
+  color: purple;
+  font-weight: 800;
+  padding-top: 45%;
+   
+}
+h1:hover {
+  cursor: pointer;
+  color: white;
+}
+
+h2, h3 {
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+  color: purple;
+  padding-top: 20%;
+}
+
+.offcanvas.show {
+  background-color: beige;
+}
+
+.modal-body {
+  background-color: beige;
+}
+
+
+
+
+
+
